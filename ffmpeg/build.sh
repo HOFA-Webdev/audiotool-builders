@@ -21,7 +21,7 @@ git checkout n4.4 # Only build stable releases
   --enable-gpl \
   --enable-nonfree \
   --enable-decoder=pcm*,flac,mp3,wavpack,aac,mjpeg,png,alac,alac_at \
-  --enable-encoder=libmp3lame,png \
+  --enable-encoder=libmp3lame,png,pcm* \
   --enable-muxer=hls,segment,tee,mp3,ffmetadata,mjpeg,image2,wav \
   --enable-demuxer=wav,mp3,mov,aiff,ffmetadata,mjpeg,image2,flac \
   --enable-protocol=file,pipe \
